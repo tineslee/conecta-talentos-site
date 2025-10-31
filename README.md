@@ -21,11 +21,6 @@ Este projeto tem como objetivo divulgar a atuação da Conecta Talentos, empresa
 - Live Server (para visualização local)
 - Git e GitHub (para versionamento e publicação)
 
-## Visual do projeto
-
-![Screenshot do site](1751650193128.jpeg)  
-*Imagem ilustrativa do cabeçalho do site*
-
 ## Como visualizar
 
 Você pode acessar o site diretamente pelo GitHub Pages:
