@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Thais Ines - Desenvolvedora Web">
+  <title>Conecta Talentos</title>
+  <style>
+    :root {
+      --azul-claro: #e6f0fa;
+      --azul-medio: #cce0f5;
+      --cinza-claro: #f2f2f2;
+      --cinza-medio: #d9d9d9;
+      --texto: #333;
+      --destaque: #005b99;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: var(--texto);
+    }
+
+    nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background: var(--destaque);
+      padding: 15px 30px;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      z-index: 1000;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: var(--azul-claro);
+    }
+
+    section {
+      min-height: 100vh;
+      padding: 100px 40px 60px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    #inicio {
+      background-image: url(img/pexels-photo-7605490.jpeg);
+      background-attachment: fixed;
+      background-size: cover;
+      background-position: center;
+      color: white;
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.6);
+    }
+
+    #sobre { background: var(--cinza-claro); }
+    #atuação { background: var(--azul-medio); }
+    #contato { background: var(--cinza-medio); }
+
+    h1, h2, h3 {
+      color: var(--destaque);
+    }
+
+    #inicio h1, #inicio p {
+      color: white;
+    }
+
+    p {
+      max-width: 900px;
+      line-height: 1.6;
+    }
+
+    img {
+      max-width: 200px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+    }
+
+    @media (max-width: 600px) {
+      nav {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      section {
+        padding: 120px 20px 40px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="#inicio">Início</a>
+    <a href="#sobre">Sobre</a>
+    <a href="#atuação">Atuação</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <section id="inicio">
+    <img src="img/1751650193128.jpeg" alt="Logo Conecta Talentos">
+    <h1>Conecta Talentos</h1>
+    <p>A Conecta Talentos atua na condução de treinamentos, workshops, palestras e programas de capacitação voltados para equipes comerciais, operacionais e administrativas, com foco em resultados, motivação e segurança no ambiente de trabalho.<br><br>
+    Desenvolvemos projetos personalizados de treinamento, desenvolvimento organizacional, recrutamento e seleção, conectando talentos e empresas para promover performance e crescimento sustentável.<br><br>
+    Acreditamos na educação corporativa e no desenvolvimento humano como estratégia para transformação pessoal e organizacional.</p>
+  </section>
+
+  <section id="sobre">
+    <img src="img/amanda.jpg" width="300">
+    <h2>Sobre mim</h2>
+    <p> Sou Amanda Azevedo, Bacharel em Administração de Empresas, Técnica em Segurança do Trabalho e especialista em Desenvolvimento de Pessoas e Treinamentos Corporativos. <br>
+        Atuo na condução de treinamentos, workshops, palestras e programas de capacitação voltados para equipes comerciais, operacionais e administrativas, com foco em resultados, motivação e segurança no ambiente de trabalho.<br>
+À frente da Conecta Talentos, desenvolvo projetos personalizados de treinamento, desenvolvimento organizacional, recrutamento e seleção, conectando talentos e empresas para promover performance e crescimento sustentável.<br>
+Acredito na educação corporativa e no desenvolvimento humano como estratégia para transformação pessoal e organizacional. 
+    <h3>Background Profissional</h3>
+    <p><b>Recursos Humanos:</b> Atuação em gestão de pessoas, R&S, integração, treinamentos e eventos internos.<br><br>
+    <b>Docência:</b> Condução de aulas e workshops nas áreas de Gestão, Segurança do Trabalho, Informática e Jovem Aprendiz.<br><br>
+    <b>Treinamentos, Cursos e Palestras:</b> Técnicas de vendas, motivação, SIPAT, atendimento ao cliente, liderança e informática avançada.<br><br>
+    <b>Diferenciais e Skills:</b> Planejamento de treinamentos, conteúdos personalizados, palestras motivacionais, capacitação comercial, domínio de Excel, comunicação clara, empatia, gestão de grupos, R&S estratégico e diagnóstico de experiência do cliente.</p>
+  </section>
+
+  <section id="atuação">
+    <h2>Áreas de atuação</h2>
+    <p><b>Recrutamento, Seleção e Integração:</b> Processos estruturados para contratação assertiva.<br><br>
+    <b>Treinamentos Corporativos:</b> Capacitações sob medida com foco em produtividade.<br><br>
+    <b>Palestras Motivacionais:</b> Conteúdos inspiradores para engajamento e atitude profissional.<br><br>
+    <b>Cursos Comerciais:</b> Vendas, negociação e atendimento ao cliente.<br><br>
+    <b>Workshops Profissionais:</b> Gestão de tempo, trabalho em equipe, informática e LinkedIn.<br><br>
+    <b>Programas de Segurança:</b> SIPAT e ações educativas para qualidade de vida.<br><br>
+    <b>Cliente Oculto:</b> Avaliação estratégica da experiência do cliente.<br><br>
+    <b>Desenvolvimento de Pessoas:</b> Fortalecimento de lideranças e equipes.</p>
+  </section>
+
+  <section id="contato">
+    <h2>Contato</h2>
+    <p>Para conhecer mais sobre a Conecta e demais serviços que oferecemos, entre em contato pelos seguintes meios:<br>
+      <b>LinkedIn:</b> <a href="https://www.linkedin.com/in/amanda-da-silva-azevedo-138a8813b/" target="_blank">Amanda Azevedo</a><br>
+      <b>Email:</b> conectalentos.treinamentos@gmail.com<br>
+      <b>Instagram:</b> @conectalentos.2025<br><br>
+
+      Se você é candidato e deseja saber mais ou participar do processo seletivo para algumas das nossas vagas disponíveis, basta enviar seu currículo para nosso email disponibilizado acima, com o título da vaga para qual você está se candidatando.<br>
+      Caso não haja no momento alguma vaga do seu interesse em aberto, ainda pode nos enviar um email com seu currículo para uma avaliação gratuita ou nosso banco de talentos. Saiba mais acessando as nossas redes socias. 
+    </p>
+  </section>
+
+</body>
+<footer>
+  <style>
+  footer {
+  background: #005b99;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  font-size: 0.9em;
+  font-style: italic;
+}
+  </style>
+  <p>Author: Thais Ines – Desenvolvedora Web</p>
+</footer>
+
+</html>
