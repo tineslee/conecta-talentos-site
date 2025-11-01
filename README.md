@@ -27,7 +27,7 @@ Você pode acessar o site diretamente pelo GitHub Pages:
 
 ** [conecta-talentos-site.github.io](https://tineslee.github.io/conecta-talentos-site/)**  
 
-## Autora
-Thais Ines - Desenvolvedora Web
+Desenvolvido por
+Thais Ines — Desenvolvedora Web
 Projeto realizado sob demanda para clientes reais
 
