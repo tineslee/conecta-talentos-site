@@ -4,7 +4,7 @@ Site institucional de uma página com rolagem suave e efeito parallax, desenvolv
 
 ## Sobre o projeto
 
-Este projeto tem como objetivo divulgar a atuação da Conecta Talentos, empresa voltada para treinamentos corporativos, palestras motivacionais, recrutamento e desenvolvimento de equipes. O site foi desenvolvido com foco em simplicidade, elegância e acessibilidade.
+Site desenvolvido como projeto profissional para a cliente Conecta Talentos e tem como objetivo divulgar a atuação da empresa, voltada para treinamentos corporativos, palestras motivacionais, recrutamento e desenvolvimento de equipes. O site foi desenvolvido com foco em simplicidade, elegância e acessibilidade.
 
 ## Funcionalidades
 
@@ -29,4 +29,5 @@ Você pode acessar o site diretamente pelo GitHub Pages:
 
 ## Autora
 Thais Ines - Desenvolvedora Web
+Projeto realizado sob demanda para clientes reais
 
