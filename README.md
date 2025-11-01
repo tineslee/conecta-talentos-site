@@ -10,7 +10,7 @@ Site institucional de uma página com rolagem suave e efeito parallax, desenvolv
 
 ## Acesse o site
 
-[https://conecta-talentos-site.github.io](https://conecta-talentos-site.github.io)
+[https://conecta-talentos-site.github.io](https://tineslee.github.io/conecta-talentos-site/)
 
 ---
 
